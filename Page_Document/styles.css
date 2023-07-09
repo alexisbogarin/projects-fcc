@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 100vh;
+    background-color: #f1f1f1;
+    padding: 1rem;
+}
+
+nav a{
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #242424;
+    padding: 0.5rem;
+}
+
+.container{
+    display: flex;
+    gap: 2rem;
+    flex-direction: row;
+}
+
+@media (max-width: 768px){
+    nav{
+        justify-content: space-between;
+        width: 100%;
+        height: auto;
+        background-color: #f1f1f1;
+    }
+    nav a{
+        display: inline;
+    }
+    .container{
+        flex-direction: column;
+    }
+}

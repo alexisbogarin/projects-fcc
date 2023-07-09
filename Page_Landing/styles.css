@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap');
+
+/** GLOBALS **/
+:root{
+    --color-primary: #30475E;
+    --color-secundary: #F5F5F5;
+}
+
+body {
+    background-color: var(--color-secundary);
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 1rem;
+}
+
+h1 {
+    color: var(--color-secundary);
+    font-family: 'Bakbak One', cursive;
+}
+
+h2 {
+    color: var(--color-primary);
+    font-family: 'Bakbak One', cursive;
+}
+
+/** ID FCC **/
+#header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    background-color: var(--color-primary);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#header-img {
+    width: 50px;
+    height: 50px;
+}
+
+/** CLASS CUSTOMS **/
+.nav-link {
+    display: block;
+    padding: 8px;
+    color: var(--color-secundary);
+    text-decoration: none;
+    font-family: 'Bakbak One', cursive;
+}
+
+.items-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+
+    .items-flex,
+    #header {
+        flex-direction: column;
+    }
+}
+/** Trailer **/
+.trailer-bg{
+    background-color: var(--color-primary);
+    padding: 1rem;
+    font-size: large;
+}
+
+.trailer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.titleP {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    font-family: 'Bakbak One', cursive;
+}
+
+/** Videogames **/
+.products {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+}
+
+.card {
+    color: #F05454;
+    font-family: 'Bakbak One', cursive;
+}
+
+@media (max-width: 768px) {
+    .products {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+/** Formulary **/
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    margin-top: 2rem;
+    height: 20rem;
+}
+
+.formulario input[type="submit"] {
+    background-color: #F05454;
+    color: var(--color-secundary);
+    border: none;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Bakbak One', cursive;
+    cursor: pointer;
+    padding: 10px;
+    margin: 1rem auto;
+    width: 250px;
+}
+
+.formulario input[type="email"] {
+    padding: 10px;
+    margin: 1rem auto;
+    border: 1px solid var(--color-primary);
+    border-radius: 0.5rem;
+    width: 250px;
+    color: var(--color-primary);
+}
+
+/** Footer **/
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-primary);
+    color: var(--color-secundary);
+    height: 50px;
+}
