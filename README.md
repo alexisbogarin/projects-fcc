@@ -3,7 +3,7 @@
 
 <h2>📱💻Responsive Web Design📚🎨:</h2>
 <br>
-<p>This course I learned to develop web pages with HTML for the content and CSS for the design. In addition to how to make web pages that respond to different screen sizes with Flexbox, and / or with CSS Grid.</p>
+<p>This course I learned to develop web pages with HTML and CSS. In addition to how to make web pages that respond to different screen sizes with Flexbox, and/or with CSS Grid. The following projects were carried out following a series of instructions requested by FreeCodeCamp to approve the project and thus demonstrate what was learned:</p>
 <br>
 <ul>
   <li>📌Page_Document</li>
