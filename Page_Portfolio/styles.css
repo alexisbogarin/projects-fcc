@@ -1,0 +1,143 @@
+/**Globals **/
+:root{
+    --color-main: #fffffe;
+    --color-secondary: #e3f6f5;
+    --color-tertiary: #bae8e8;
+    --font-color: #2d334a;
+    --btn-text: #272343;
+    --btn-color: #ffd803;
+    --bg-color: #fffffe;
+    --highlight: #ffed89;
+    --borders: #272343;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    
+    background-color: var(--bg-color);
+    color: var(--font-color);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a{
+    text-decoration: none;
+    color: var(--btn-text);
+    padding: 1rem;
+}
+
+a:hover{
+    background-color: var(--btn-color);
+}
+
+h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+/** nav **/
+#navbar{
+    display: flex;
+    position: fixed;
+    justify-content: end;
+    gap: 2rem;
+    background-color: var(--color-tertiary);
+    top: 0;
+    width: 100%;
+}
+
+/**welcome-section**/
+
+#welcome-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+}
+
+/**projects**/
+#projects{
+    height: 450px;
+    background-color: var(--color-tertiary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-tile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    background-color: var(--color-main);
+    width: 400px;
+    height: 300px;
+    margin: 2rem;
+    border: 2px solid var(--borders);
+}
+
+.project-tile div{
+    padding: 1rem;
+}
+
+.project-tile a{
+    background-color: var(--btn-color);
+    color: var(--btn-text);
+    cursor: pointer;
+    border: 1px solid var(--borders);
+}
+
+.project-tile a:hover{
+    background-color: var(--highlight);
+}
+
+/**Contacts**/
+
+#contacts{
+    text-align: center;
+    height: 250px;
+    padding: 1rem;
+}
+
+.title{
+    margin-bottom: 1rem;
+}
+
+.redes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+#profile-link{
+    background-color: var(--color-tertiary);
+    border: 1px solid var(--borders);
+    font-weight: bold;
+}
+
+#profile-link:hover{
+    background-color: var(--btn-color);
+}
+
+/** Footer **/
+footer{
+    text-align: center;
+    background-color: var(--color-tertiary);
+}
+
+@media (max-width: 768px){
+    #projects{
+        flex-direction: column;
+    }
+
+    #navbar{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
