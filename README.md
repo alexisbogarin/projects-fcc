@@ -1,5 +1,5 @@
 # projects-fcc
-✏Projects made for FreeCodeCamp as practice.✏
+<h1>✏Projects made for FreeCodeCamp as practice.✏</h1>
 
 📱💻Responsive Web Design📚🎨:
 <br>
