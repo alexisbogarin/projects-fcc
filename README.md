@@ -12,7 +12,7 @@
   <li>📌Page_Tribute</li>
   <li>📌Page_Portfolio</li>
 </ul>
-<a href="https://www.freecodecamp.org/espanol/certification/medicenboga/responsive-web-design" style="background: #e53170; paddin: 2rem;">Certified</a>
+<a href="https://www.freecodecamp.org/espanol/certification/medicenboga/responsive-web-design" style="background-color: #e53170;">Certified</a>
 
 
 
